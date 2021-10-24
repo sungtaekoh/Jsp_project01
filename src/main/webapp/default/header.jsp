@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-    <c:set var="contextPath" value="${pageContext.request.contextPath }"/>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath }" />
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +36,7 @@ nav ul li a:hover {
 <nav>
     <ul>
 <li><a href="${contextPath }/default/main.jsp">HOME</a></li>
-<li><a href="${contextPath }/member/membership.jsp">MEMBER_SHIP</a></li>
+<li><a href="${contextPath }/member/memberView.jsp">MEMBER_SHIP</a></li>
     </ul>
 </nav>
 </div>
