@@ -82,6 +82,7 @@ nav ul li a:hover {
 				<ul>
 	<li><a href="${contextPath }/default/main.jsp">HOME</a></li>
 	<li><a href="${contextPath }/member/membership.jsp">MEMBER_SHIP</a></li>
+	<li><a href="${contextPath }/board/list.jsp">BOARD</a></li>
 	<li>
 	<c:choose>
 		<c:when test="${loginUser ==null }">
